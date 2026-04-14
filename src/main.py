@@ -49,3 +49,10 @@ repro_parser.add_argument("--run_id", type=str)
 args = parser.parse_args()
 
 print(args.config)
+
+if args.command == "train":
+    print("Training...")
+elif args.command == "eval":
+    print("Evaluating...")
+elif args.command == "reproduce":
+    print("Reproducing...")
