@@ -28,9 +28,15 @@ Update this section at each milestone:
 ```text
 Start-Trek/
   README.md
-  train.py
-  eval.py
+  src/
+    main.py
+    training/
+      train.py
+      metrics.py
   configs/
+    baseline.yaml
+  scripts/
+    reproduce.sh
   artifacts/
   Documentations/
     PROJECT-RECAP.md
@@ -38,5 +44,6 @@ Start-Trek/
     report/
       REPORT-TEMPLATE.md
     changes/
-      VARIABLE_REGISRTY.md
+      VARIABLE-REGISTRY.md
       CHANGELOG-EXPERIMENTS.md
+      VARIABLE-EXPLAINED.md

@@ -1,0 +1,12 @@
+env:
+  name: LunarLander-v3
+  continuous: false
+  render_mode: null
+
+run:
+  seed: 0
+  episodes: 100
+  max_steps_per_episode: 1000
+
+output:
+  root_dir: artifacts/runs
