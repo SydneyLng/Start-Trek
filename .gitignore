@@ -1,5 +1,6 @@
 # Ignore issues Documentations
 planning-linear.md
+daily-report/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
