@@ -1,0 +1,6 @@
+{
+  "run_id": "test-bootstrap-001",
+  "config_path": "configs/baseline.yaml",
+  "seed": 0,
+  "status": "initialized"
+}

@@ -2,6 +2,9 @@
 planning-linear.md
 daily-report/*
 
+# Local-only: first code defense grading rubric (for planning / AI context; do not commit)
+DEFENSE-CODE-RUBRIC.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
