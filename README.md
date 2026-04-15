@@ -12,6 +12,17 @@ The objective is to reach stable performance with a mean score of at least `200`
 - Environment: `LunarLander-v3` (discrete first, optional continuous extension)
 - Focus: RL loop fundamentals, exploration/exploitation, value-based learning before deep optimization complexity
 
+## Quick start (CLI)
+
+From the repository root, with dependencies installed (including PyYAML):
+
+```bash
+python -m src.main train --config configs/baseline.yaml
+python -m src.main train --config configs/baseline.yaml --run-id my-run-001
+python -m src.main eval --config configs/baseline.yaml
+python -m src.main reproduce --config configs/baseline.yaml
+```
+
 ## Project Status
 
 Current phase: `Setup and instrumentation`.
